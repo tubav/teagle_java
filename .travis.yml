@@ -1,0 +1,7 @@
+language: java
+jdk:
+  - openjdk7
+notifications:
+  email:
+    - alexander.willner@tu-berlin.de
+    - fi@av.tu-berlin.de

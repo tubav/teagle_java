@@ -1,0 +1,39 @@
+<project name="FITeagle">
+  <bannerLeft>
+    <name>FITeagle</name>
+    <src>./images/logo_fiteagle.png</src>
+    <href>http://fiteagle.org</href>
+  </bannerLeft>
+  <bannerRight>
+    <name>TU Berlin | AV</name>
+    <src>./images/logo_av.png</src>
+    <href>http://av.tu-berlin.de</href>
+  </bannerRight>
+  <body>
+    <links>
+      <item name="TU Berlin (AV)" href="http://av.tu-berlin.de" />
+      <item name="FITeagle" href="http://fiteagle.org"/>
+    </links>
+
+    <menu name="General Information">
+      <item name="Introduction" href="intro.html"/>
+      <item name="For Developers" href="developers.html"/>
+      <item name="For Users" href="users.html"/>
+      <item name="Current Status" href="status.html"/>
+      <item name="FAQ" href="faq.html"/>
+      <item name="Clients | VCTTool" href="vcttool.html"/>
+    </menu>
+
+    <menu ref="reports"/>
+  </body>
+<skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.2.1</version>
+</skin>
+<custom>
+    <fluidoSkin>
+        <sideBarEnabled>true</sideBarEnabled>
+    </fluidoSkin>
+</custom>
+</project>
