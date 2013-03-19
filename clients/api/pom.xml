@@ -3,39 +3,39 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<name>FITeagle :: Clients :: API</name>
-	<groupId>org.fiteagle.clients</groupId>
+	<name>fire-teagle :: Clients :: API</name>
+	<groupId>org.fire-teagle.clients</groupId>
 	<artifactId>api</artifactId>
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>org.fiteagle</groupId>
+		<groupId>org.fire-teagle</groupId>
 		<artifactId>clients</artifactId>
 		<version>0.1-SNAPSHOT</version>
 	</parent>
 
   <repositories>
     <repository>
-      <id>fiteagle-repo</id>
-      <url>http://fiteagle.org/maven</url>
+      <id>fire-teagle-repo</id>
+      <url>http://www.fire-teagle.org/maven</url>
     </repository>
   </repositories>
 
 	<dependencies>
            <dependency>
-            <groupId>org.fiteagle.core</groupId>
+            <groupId>org.fire-teagle.core</groupId>
             <artifactId>model</artifactId>
             <version>0.1-SNAPSHOT</version>
             <type>jar</type>
         </dependency>
            <dependency>
-            <groupId>org.fiteagle.clients</groupId>
+            <groupId>org.fire-teagle.clients</groupId>
             <artifactId>repository</artifactId>
             <version>0.1-SNAPSHOT</version>
             <type>jar</type>
         </dependency>
            <dependency>
-            <groupId>org.fiteagle.core</groupId>
+            <groupId>org.fire-teagle.core</groupId>
             <artifactId>util</artifactId>
             <version>0.1-SNAPSHOT</version>
             <type>jar</type>

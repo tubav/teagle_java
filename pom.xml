@@ -2,24 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<name>FITeagle</name>
-	<groupId>org.fiteagle</groupId>
-	<artifactId>fiteagle</artifactId>
+	<name>Teagle</name>
+	<groupId>org.fire-teagle</groupId>
+	<artifactId>teagle</artifactId>
 	<packaging>pom</packaging>
 	<version>0.1-SNAPSHOT</version>
-	<url>https://github.com/tubav/fiteagle</url>
+	<url>https://github.com/tubav/teagle_java</url>
 
 	<modules>
 		<module>core</module>
 		<module>clients</module>
 		<module>ptm</module>
-		<module>adapter</module>
-		<module>interactors</module>
-		<module>delivery</module>
   </modules>
 
 	<description>
-        FITeagle | Future Internet Testbed Experimentation and Management Framework
+        FIRE Teagle | Future Internet Testbed Experimentation and Management Framework
     </description>
 
 	<organization>
@@ -37,7 +34,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<fiteagle.version>${project.version}</fiteagle.version>
+		<fire-teagle.version>${project.version}</fire-teagle.version>
 		<swt.version>3.8</swt.version>
         <github.global.server>github</github.global.server>
 	</properties>
@@ -48,8 +45,8 @@
 			<url>https://swt-repo.googlecode.com/svn/repo/</url>
 		</repository>
 		<repository>
-			<id>fiteagle-repo</id>
-			<url>http://fiteagle.org/maven</url>
+			<id>fire-teagle-repo</id>
+			<url>http://www.fire-teagle.org/maven</url>
 		</repository>
 	</repositories>
 
@@ -318,44 +315,44 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git://github.com/tubav/fiteagle.git</connection>
-		<developerConnection>scm:git:git@github.com:tubav/fiteagle.git</developerConnection>
-		<url>https://github.com/tubav/fiteagle</url>
+		<connection>scm:git:git://github.com/tubav/teagle_java.git</connection>
+		<developerConnection>scm:git:git@github.com:tubav/teagle_java.git</developerConnection>
+		<url>https://github.com/tubav/fire-teagle</url>
 	</scm>
 
 	<distributionManagement>
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
-			<id>fiteagle</id>
-			<name>fiteagle</name>
-			<url>http://fiteagle.org/maven</url>
+			<id>fire-teagle</id>
+			<name>fire-teagle</name>
+			<url>http://www.fire-teagle.org/maven</url>
 		</repository>
 		<site>
 			<id>github</id>
-			<name>fiteagle</name>
-			<url>https://github.com/tubav/fiteagle/</url>
+			<name>fire-teagle</name>
+			<url>https://github.com/tubav/fire-teagle/</url>
 		</site>
 	</distributionManagement>
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>http://github.com/tubav/fiteagle</url>
+		<url>http://github.com/tubav/fire-teagle</url>
 	</issueManagement>
 
 	<mailingLists>
 		<mailingList>
-			<name>fiteagle-dev</name>
-			<subscribe>http://lists.fiteagle.org/cgi-bin/mailman/listinfo/dev</subscribe>
-			<unsubscribe>http://lists.fiteagle.org/cgi-bin/mailman/listinfo/dev</unsubscribe>
-			<post>dev@lists.fiteagle.org</post>
-			<archive>http://lists.fiteagle.org/pipermail/dev/</archive>
+			<name>fire-teagle-dev</name>
+			<subscribe>http://lists.www.fire-teagle.org/cgi-bin/mailman/listinfo/dev</subscribe>
+			<unsubscribe>http://lists.www.fire-teagle.org/cgi-bin/mailman/listinfo/dev</unsubscribe>
+			<post>dev@lists.www.fire-teagle.org</post>
+			<archive>http://lists.www.fire-teagle.org/pipermail/dev/</archive>
 		</mailingList>
 		<mailingList>
-			<name>fiteagle-user</name>
-			<subscribe>http://lists.fiteagle.org/cgi-bin/mailman/listinfo/users</subscribe>
-			<unsubscribe>http://lists.fiteagle.org/cgi-bin/mailman/listinfo/users</unsubscribe>
-			<post>users@lists.fiteagle.org</post>
-			<archive>http://lists.fiteagle.org/pipermail/users/</archive>
+			<name>fire-teagle-user</name>
+			<subscribe>http://lists.www.fire-teagle.org/cgi-bin/mailman/listinfo/users</subscribe>
+			<unsubscribe>http://lists.www.fire-teagle.org/cgi-bin/mailman/listinfo/users</unsubscribe>
+			<post>users@lists.www.fire-teagle.org</post>
+			<archive>http://lists.www.fire-teagle.org/pipermail/users/</archive>
 		</mailingList>
 	</mailingLists>
 

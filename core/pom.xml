@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<name>FITeagle :: Core</name>
+	<name>fire-teagle :: Core</name>
 	<artifactId>core</artifactId>
     <packaging>pom</packaging>
 	
 	<parent>
-		<groupId>org.fiteagle</groupId>
-		<artifactId>fiteagle</artifactId>
+		<groupId>org.fire-teagle</groupId>
+		<artifactId>fire-teagle</artifactId>
 		<version>0.1-SNAPSHOT</version>
 	</parent>
 	
@@ -22,8 +22,8 @@
 	
    <repositories>
     <repository>
-      <id>fiteagle-repo</id>
-      <url>http://fiteagle.org/maven</url>
+      <id>fire-teagle-repo</id>
+      <url>http://www.fire-teagle.org/maven</url>
     </repository>
   </repositories>
 </project>

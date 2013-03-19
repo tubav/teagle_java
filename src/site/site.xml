@@ -1,8 +1,8 @@
-<project name="FITeagle">
+<project name="FIRE-Teagle">
   <bannerLeft>
-    <name>FITeagle</name>
-    <src>./images/logo_fiteagle.png</src>
-    <href>http://fiteagle.org</href>
+    <name>FIRE-Teagle</name>
+    <src>./images/logo_teagle.png</src>
+    <href>http://www.fire-teagle.org</href>
   </bannerLeft>
   <bannerRight>
     <name>TU Berlin | AV</name>
@@ -12,7 +12,7 @@
   <body>
     <links>
       <item name="TU Berlin (AV)" href="http://av.tu-berlin.de" />
-      <item name="FITeagle" href="http://fiteagle.org"/>
+      <item name="Teagle" href="http://www.fire-teagle.org"/>
     </links>
 
     <menu name="General Information">

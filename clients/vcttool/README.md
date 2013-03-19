@@ -1,5 +1,5 @@
-FITeagle VCTTool
-================
+FIRE-Teagle VCTTool
+===================
 
 Compile
 -------

@@ -24,8 +24,8 @@ First steps
 
 First check out the code:
 
-    git clone https://github.com/tubav/fiteagle.git
-    cd fiteagle
+    git clone https://github.com/tubav/teagle_java.git
+    cd teagle_java
 
 Now have a look at the documentation:
 
@@ -48,7 +48,7 @@ Update the sources and libraries:
 Continuous Integration
 ----------------------
 
-See public [travis-ci](http://travis-ci.org/#!/tubav/fiteagle) service.
+See public [travis-ci](http://travis-ci.org/#!/tubav/teagle_java) service.
 
 Artifact Deployment
 -------------------
@@ -59,7 +59,7 @@ Edit the file .m2/settings.xml:
     <settings>
         <servers>
             <server>
-                <id>fiteagle</id>
+                <id>teagle_java</id>
                     <username>xxx</username>
                     <password>xxx</password>
             </server>

@@ -2,21 +2,21 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">  
   <modelVersion>4.0.0</modelVersion>
 
-  <name>FITeagle :: Core :: Framework</name>
-  <groupId>org.fiteagle.core</groupId>
+  <name>fire-teagle :: Core :: Framework</name>
+  <groupId>org.fire-teagle.core</groupId>
   <artifactId>framework</artifactId>
   <packaging>war</packaging>
  
   <parent>
-    <groupId>org.fiteagle</groupId>
+    <groupId>org.fire-teagle</groupId>
     <artifactId>core</artifactId>
     <version>0.1-SNAPSHOT</version>
   </parent>
 
   <repositories>
     <repository>
-      <id>fiteagle-repo</id>
-      <url>http://fiteagle.org/maven</url>
+      <id>fire-teagle-repo</id>
+      <url>http://www.fire-teagle.org/maven</url>
     </repository>
   </repositories>
   <dependencies>
@@ -26,12 +26,12 @@
   		<version>4.10</version>
   	</dependency>
   	<dependency>
-  		<groupId>org.fiteagle.clients</groupId>
+  		<groupId>org.fire-teagle.clients</groupId>
   		<artifactId>api</artifactId>
   		<version>0.1-SNAPSHOT</version>
   	</dependency>
   	<dependency>
-  		<groupId>org.fiteagle.core</groupId>
+  		<groupId>org.fire-teagle.core</groupId>
   		<artifactId>util</artifactId>
   		<version>0.1-SNAPSHOT</version>
   	</dependency>

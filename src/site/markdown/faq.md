@@ -1,7 +1,7 @@
 FAQ
 ===
 
-FAQ section for FITeagle
+FAQ section for FIRE-Teagle
 ---------------
 
 ((to be done))

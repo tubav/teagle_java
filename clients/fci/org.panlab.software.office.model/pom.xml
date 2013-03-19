@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<name>FITeagle :: Clients :: FCI :: Office Model</name>
-	<groupId>org.fiteagle.clients.fci</groupId>
+	<name>fire-teagle :: Clients :: FCI :: Office Model</name>
+	<groupId>org.fire-teagle.clients.fci</groupId>
     <artifactId>model</artifactId>
     <packaging>jar</packaging>
     <version>0.1-SNAPSHOT</version>
 	
 	<parent>
-		<groupId>org.fiteagle.clients</groupId>
+		<groupId>org.fire-teagle.clients</groupId>
 		<artifactId>fci</artifactId>
 		<version>0.1-SNAPSHOT</version>
 	</parent>
@@ -29,8 +29,8 @@
 
    <repositories>
     <repository>
-      <id>fiteagle-repo</id>
-      <url>http://fiteagle.org/maven</url>
+      <id>fire-teagle-repo</id>
+      <url>http://www.fire-teagle.org/maven</url>
     </repository>
   </repositories>
 </project>

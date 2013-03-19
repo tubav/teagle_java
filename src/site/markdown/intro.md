@@ -1,7 +1,7 @@
 Introduction
 ============
 
-About FITeagle
+About FIRE-Teagle
 ---------------
 
 Future Internet Testbed Experimentation Framework ((to be done))

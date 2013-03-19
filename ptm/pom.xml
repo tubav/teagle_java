@@ -2,20 +2,20 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <name>FITeagle :: PTM</name>
+  <name>fire-teagle :: PTM</name>
   <artifactId>ptm</artifactId>
   <packaging>jar</packaging>
 
   <parent>
-    <groupId>org.fiteagle</groupId>
-    <artifactId>fiteagle</artifactId>
+    <groupId>org.fire-teagle</groupId>
+    <artifactId>fire-teagle</artifactId>
     <version>0.1-SNAPSHOT</version>
   </parent>
  
   <repositories>
     <repository>
-      <id>fiteagle-repo</id>
-      <url>http://fiteagle.org/maven</url>
+      <id>fire-teagle-repo</id>
+      <url>http://www.fire-teagle.org/maven</url>
     </repository>
   </repositories>
 

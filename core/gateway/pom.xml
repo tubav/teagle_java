@@ -1,20 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-	<name>FITeagle :: Core :: Gateway</name>
-	<groupId>org.fiteagle.core</groupId>
+	<name>fire-teagle :: Core :: Gateway</name>
+	<groupId>org.fire-teagle.core</groupId>
 	<artifactId>gateway</artifactId>
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>org.fiteagle</groupId>
+		<groupId>org.fire-teagle</groupId>
 		<artifactId>core</artifactId>
 		<version>0.1-SNAPSHOT</version>
 	</parent>
 
 	<repositories>
 		<repository>
-			<id>fiteagle-repo</id>
-			<url>http://fiteagle.org/maven</url>
+			<id>fire-teagle-repo</id>
+			<url>http://www.fire-teagle.org/maven</url>
 		</repository>
 <repository>
     <id>glassfish-maven2-repository.dev.java.net</id>
@@ -95,13 +95,13 @@
 	<scope>compile</scope>
 </dependency>
 <dependency>
-	<groupId>org.fiteagle.clients</groupId>
+	<groupId>org.fire-teagle.clients</groupId>
 	<artifactId>repository</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<scope>compile</scope>
 </dependency>
 <dependency>
-	<groupId>org.fiteagle.core</groupId>
+	<groupId>org.fire-teagle.core</groupId>
 	<artifactId>model</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<scope>compile</scope>
