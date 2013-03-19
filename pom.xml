@@ -45,8 +45,8 @@
 			<url>https://swt-repo.googlecode.com/svn/repo/</url>
 		</repository>
 		<repository>
-			<id>fire-teagle-repo</id>
-			<url>http://www.fire-teagle.org/maven</url>
+			<id>fiteagle</id>
+			<url>http://fiteagle.org/maven</url>
 		</repository>
 	</repositories>
 
@@ -325,7 +325,7 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>fire-teagle</id>
 			<name>fire-teagle</name>
-			<url>http://www.fire-teagle.org/maven</url>
+			<url>http://fiteagle.org/maven</url>
 		</repository>
 		<site>
 			<id>github</id>

@@ -15,8 +15,8 @@
 
   <repositories>
     <repository>
-      <id>fire-teagle-repo</id>
-      <url>http://www.fire-teagle.org/maven</url>
+      <id>fiteagle-repo</id>
+      <url>http://fiteagle.org/maven</url>
     </repository>
   </repositories>
   <dependencies>
